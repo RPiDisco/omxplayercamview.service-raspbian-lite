@@ -29,9 +29,13 @@ Install/Setup/Configure with:
       *if you dont know/like vi, replace "edit" with "nano",TIPS: in nano, use "ctrl-o" to save file and 
         use "ctrl-x" when done to exit file.
 
-    Optional:
-     *adjust 15 second timeout
-      *adjust 3 second up as needed @ Restart=on-failure value near end of file
+    Recommended:
+     
+        *adjust 15 second timeout/after testing increase this to whatever works for you. I use 300 seconds generally after I                confirm its working at 15 intervals. You can set it to 300 from start if you want as well.
+      
+      Optional:
+      
+        *adjust 3 second up as needed @ Restart=on-failure value near end of file
 
 
 4) Enable service
