@@ -9,9 +9,9 @@ Install/Setup/Configure with:
 
 1) Download latest img from sf here:
 
-https://sourceforge.net/projects/omxplayercamviewsvc-rpi-lite/files/latest/download
+  https://sourceforge.net/projects/omxplayercamviewsvc-rpi-lite/files/latest/download
 
-and write to sd card.
+  and write to sd card.
 
 2) After install and reboot, login using :
 ````
@@ -23,11 +23,11 @@ and write to sd card.
 
 ````$sudo edit /etc/systemd/system/omxplayercamview.service````
 
-*if you dont know/like vi, replace "edit" with "nano",TIPS: in nano, use "ctrl-o" to save file and 
-use "ctrl-x" when done to exit file.
+      *if you dont know/like vi, replace "edit" with "nano",TIPS: in nano, use "ctrl-o" to save file and 
+        use "ctrl-x" when done to exit file.
 
-Optional:
-   *adjust 15 second timeout
+    Optional:
+     *adjust 15 second timeout
       *adjust 3 second up as needed @ Restart=on-failure value near end of file
 
 4) Enable service
