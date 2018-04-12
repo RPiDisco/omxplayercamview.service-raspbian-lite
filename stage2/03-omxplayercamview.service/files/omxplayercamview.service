@@ -1,0 +1,27 @@
+#todo set a conditional check for omxplayer binary and try using  'echo -n > /dev/proto/ip/port' as a precheck as well. Valid cams should issue null return on check.
+
+
+[Unit]
+Description=omxplayercamview service
+After=network.target 
+
+[Service]
+Type=simple
+
+User=pi
+
+#usage examples
+#ExecStart=/usr/bin/timeout 15 /usr/bin/omxplayer -o hdmi -b --live tcp://192.168.1.101:8081
+#omxplayer does not support all containers/protocols and stream types, ymmv
+#ExecStart=/usr/bin/omxplayer -o hdmi -b --live http://10.10.1.100:8082
+#ExecStart=/usr/bin/omxplayer -o hdmi -b --live tcp://192.168.1.101:8081
+ExecStart=/usr/bin/omxplayer -o hdmi -b --live tcp://192.168.1.100:8081
+
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=control-group
+
+# Whether systemd will continue over-watch and restart on any halt
+Restart=on-failure
+RestartSec=3
+[Install]
+WantedBy=multi-user.target
