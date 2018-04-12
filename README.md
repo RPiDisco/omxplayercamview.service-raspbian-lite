@@ -64,9 +64,7 @@ Install/Setup/Configure with:
 
 
 
-
-
-
+***Note: This runs as a service so you will not have keyboard input to the omxplayer/framebuffer. I recommend starting ssh using ssh to test your ip cam. This way you can restart and modify your service config file as needed without having to reboot/stop service and restart.
 
 
 
