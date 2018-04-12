@@ -6,8 +6,14 @@ with omxplayercamview.service installed.
 Usage:
 Install/Setup/Configure with:
 
-1) Download latest img, and write to sd card.
+1) Download latest img from sf here:
+
+https://sourceforge.net/projects/omxplayercamviewsvc-rpi-lite/files/latest/download
+
+and write to sd card.
+
 2) After install and reboot, login using :
+
 pi/raspberry
 
 3)````$sudo edit /etc/systemd/system/omxplayercamview.service````
