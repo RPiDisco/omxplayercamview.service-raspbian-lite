@@ -7,7 +7,7 @@ Usage:
 
 Install/Setup/Configure with:
 
-1) Download latest img from sf here:
+1) Git clone/build or Download latest img from sf here:
 
 
     https://sourceforge.net/projects/omxplayercamviewsvc-rpi-lite/files/latest/download
