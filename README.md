@@ -1,5 +1,5 @@
 
-omxplayercamviewsvc-raspbian-lite is a raspbian-lite fork(respin) from RPI-Distro/pi-gen, and rebuilt from stage2
+omxplayercamviewsvc-raspbian-lite is a raspbian-lite fork(respin) of the git project RPI-Distro/pi-gen, rebuilt from stage2
 with omxplayercamview.service installed.
 
 
