@@ -17,9 +17,11 @@ use "ctrl-x" when done to exit file.
 
 Required:
 change line #18 to your camera's ip/port 
+
 Optional:
-*adjust 15 second timeout
-*adjust 3 second up as needed @ Restart=on-failure value near end of file
+   *adjust 15 second timeout
+      *adjust 3 second up as needed @ Restart=on-failure value near end of file
+
 4) Enable service
 
    ````$sudo systemctl enable omxplayercamview.service````
