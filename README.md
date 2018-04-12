@@ -14,8 +14,10 @@ https://sourceforge.net/projects/omxplayercamviewsvc-rpi-lite/files/latest/downl
 and write to sd card.
 
 2) After install and reboot, login using :
-
-pi/raspberry
+````
+  pi
+  raspberry
+````
 
 3) Required Edit, change line #18 to your camera's ip/port 
 
