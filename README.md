@@ -28,7 +28,7 @@ Optional:
 
    ````$sudo systemctl start omxplayercamview.service````
 
-6) 
+6) Reboot
    ````$sudo reboot````
 
 Features:
