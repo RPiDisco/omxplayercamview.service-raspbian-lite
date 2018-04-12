@@ -31,7 +31,7 @@ Install/Setup/Configure with:
 
     Recommended:
      
-        *adjust 15 second timeout/after testing increase this to whatever works for you. I use 300 seconds generally after I                confirm its working at 15 intervals. You can set it to 300 from start if you want as well.
+        *adjust 15 second timeout/after testing increase this to whatever works for you. I use 300 seconds generally after confirmation its working at 15 second intervals. You can set it to 300 from start if you want as well, a 15 second refresh is just the default,low as it may be.
       
       Optional:
       
