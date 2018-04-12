@@ -9,9 +9,10 @@ Install/Setup/Configure with:
 
 1) Download latest img from sf here:
 
-  https://sourceforge.net/projects/omxplayercamviewsvc-rpi-lite/files/latest/download
 
-  and write to sd card.
+    https://sourceforge.net/projects/omxplayercamviewsvc-rpi-lite/files/latest/download
+
+    and write to sd card.
 
 2) After install and reboot, login using :
 ````
@@ -21,7 +22,7 @@ Install/Setup/Configure with:
 
 3) Required Edit, change line #18 to your camera's ip/port 
 
-````$sudo edit /etc/systemd/system/omxplayercamview.service````
+  ````$sudo edit /etc/systemd/system/omxplayercamview.service````
 
       *if you dont know/like vi, replace "edit" with "nano",TIPS: in nano, use "ctrl-o" to save file and 
         use "ctrl-x" when done to exit file.
