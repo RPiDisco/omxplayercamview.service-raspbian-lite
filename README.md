@@ -53,7 +53,7 @@ Install/Setup/Configure with:
 
     Accelerated direct HW rendering/viewing is low on cpu cycles compared to many options.
 
-    Should works on all the pi's.
+    Raspbian based so should work on all the pi's.
     
     Good for standalone or private lan use.
 
