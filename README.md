@@ -13,12 +13,14 @@ Install/Setup/Configure with:
     https://sourceforge.net/projects/omxplayercamviewsvc-rpi-lite/files/latest/download
 
     and write to sd card.
+    
 
 2) After install and reboot, login using :
 ````
   pi
   raspberry
 ````
+
 
 3) Required Edit, change line #18 to your camera's ip/port 
 
@@ -31,16 +33,21 @@ Install/Setup/Configure with:
      *adjust 15 second timeout
       *adjust 3 second up as needed @ Restart=on-failure value near end of file
 
+
 4) Enable service
 
    ````$sudo systemctl enable omxplayercamview.service````
 
-5) start service
+
+5) Start service
 
    ````$sudo systemctl start omxplayercamview.service````
 
+
 6) Reboot
+
    ````$sudo reboot````
+
 
 Features:
 Accelerated direct HW rendering/viewing is low on cpu cycles compared to many options.
