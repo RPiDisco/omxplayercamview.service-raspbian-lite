@@ -20,15 +20,14 @@ Install/Setup/Configure with:
   pi
   raspberry
 ````
-    
-        a) Go ahead and change your password for the pi account. Safer to do this since you should enable openssh server to
+  
+   a) Go ahead and change your password for the pi account. Safer to do this since you should enable openssh server to
         manage remotely.
      
             
             ````passwd pi````   \enter your new pw twice
      
-            b)
-            
+   b) Enable/start ssh server            
                     ````sudo systemctl enable ssh````    
                
                                 ````sudo systemctl start ssh````
