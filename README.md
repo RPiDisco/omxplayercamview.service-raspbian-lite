@@ -88,7 +88,11 @@ or use raspi-config/dialog to change.
     
     Good for standalone or private lan use.
 
+*Known Problems
 
+    Though omxplayer is a ffmpeg derivative of good quaility, omxplayer is not near as reliable as ffmpeg proper. 
+    Eg. it will crash/timeout more often than ffmpeg/ffplay or vlc/mplayer, but systemd keeps it running in this setup. 
+    *But note you will have timeouts using omxplayer no matter how you use it, im my experience. If i were to replace the omxplayer with one of the formentioned programs, this script would run very reliable and likely timeout a lot less. However, it would require a complete rework of this and im not ready to do that at this time. 
 
 
 
